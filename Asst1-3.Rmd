@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-**Due Sunday, February 14 @ midnight through Github**
+**Due Sunday, February 13, 2022 @ midnight through Github**
 
 Improve your data display, improve your logistic regression, and fit a propensity score analysis to using the NMES data to answer:
 
@@ -48,7 +48,7 @@ nmes_data <- read_csv("nmesUNPROC.csv")
 
 Write your text here.
 
-5. Include an updated final multiivariable logistic regression model to address question the question and interpret the results. Remember to use the function `glm` as shown in the slides from today's class.
+5. Include an updated final multivariable logistic regression model to address question the question and interpret the results.
 
 ```{r}
 # code for logistic regression
@@ -59,7 +59,7 @@ Write your interpretation text here.
 
 6. Perform a propensity score analysis to address the question and interpret the results.  
 
-First, use logistic regression to estimate propensity scores for the treatment of smoking (`eversmk`); that is, use logistic regression to estimate the probability of smoking given possible confounders.
+First, use logistic regression to estimate propensity scores for the treatment of smoking (`eversmk`); that is, use logistic regression to estimate the probability of smoking given possible confounding variables.
 
 ```{r}
 # code for calculating propensity scores
