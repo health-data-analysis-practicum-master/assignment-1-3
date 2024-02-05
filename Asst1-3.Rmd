@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-**Due Sunday, February 12, 2023 @ midnight through Github**
+**Due Sunday, February 11, 2024 @ midnight through Github**
 
 Improve your data display, improve your logistic regression, and fit a propensity score analysis to using the NMES data to answer:
 
